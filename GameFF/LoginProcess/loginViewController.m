@@ -131,6 +131,7 @@
     [self performSegueWithIdentifier:@"registrationForm" sender:self];
 }
 - (IBAction)test:(id)sender {
+    return;
     NSLog(@"test");
 }
 @end
