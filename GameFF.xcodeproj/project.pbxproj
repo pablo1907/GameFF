@@ -7,15 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3201088596B4756681693705 /* libThree20UICommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3201088596B4756681693704 /* libThree20UICommon.a */; };
-		320A2827FEC940B25BC42C65 /* libThree20Core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320A2827FEC940B25BC42C64 /* libThree20Core.a */; };
-		320A5A189C235877202780D5 /* libThree20Network.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320A5A189C235877202780D4 /* libThree20Network.a */; };
-		320A737074758E53BA54BE95 /* libThree20UINavigator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320A737074758E53BA54BE94 /* libThree20UINavigator.a */; };
 		320AF8492C47A4D819F7C451 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320AF8492C47A4D819F7C450 /* QuartzCore.framework */; };
-		320B6C86F11D9990244A9731 /* Three20.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 320B6C86F11D9990244A9730 /* Three20.bundle */; };
-		320CC833B8AF0ACFD35E6225 /* libThree20Style.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320CC833B8AF0ACFD35E6224 /* libThree20Style.a */; };
-		320D7DCCE32703ACAB9A45E5 /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320D7DCCE32703ACAB9A45E4 /* libThree20.a */; };
-		320F2C48872C2E2C4DF86205 /* libThree20UI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320F2C48872C2E2C4DF86204 /* libThree20UI.a */; };
 		AD1FDD4415D3EC940041C38B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1FDD4315D3EC940041C38B /* UIKit.framework */; };
 		AD1FDD4615D3EC940041C38B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1FDD4515D3EC940041C38B /* Foundation.framework */; };
 		AD1FDD4815D3EC940041C38B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1FDD4715D3EC940041C38B /* CoreGraphics.framework */; };
@@ -75,7 +67,7 @@
 		AD4FF07715D3F430007E487F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4FF07615D3F430007E487F /* CoreLocation.framework */; };
 		AD4FF07915D3F476007E487F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4FF07815D3F476007E487F /* SystemConfiguration.framework */; };
 		AD4FF07C15D3F4A3007E487F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4FF07B15D3F4A3007E487F /* AppDelegate.m */; };
-		ADCFBC2015D647A100720FC6 /* libSDWebImageARC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADCFBC1B15D6474E00720FC6 /* libSDWebImageARC.a */; };
+		ADCC9F1315D7CAD000C2C899 /* libSDWebImageARC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD38537915D7CA0F00E96232 /* libSDWebImageARC.a */; };
 		ADCFBC2215D647AF00720FC6 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADCFBC2115D647AF00720FC6 /* ImageIO.framework */; };
 		ADCFBC2515D7A02D00720FC6 /* customCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCFBC2415D7A02D00720FC6 /* customCell.m */; };
 /* End PBXBuildFile section */
@@ -242,30 +234,30 @@
 			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
 			remoteInfo = Three20UINavigatorUnitTests;
 		};
-		ADCFBC1815D6474E00720FC6 /* PBXContainerItemProxy */ = {
+		AD38537615D7CA0F00E96232 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = ADCFBC0F15D6474D00720FC6 /* SDWebImage.xcodeproj */;
+			containerPortal = AD38536D15D7CA0F00E96232 /* SDWebImage.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 53922D6F148C55820056699D;
 			remoteInfo = SDWebImage;
 		};
-		ADCFBC1A15D6474E00720FC6 /* PBXContainerItemProxy */ = {
+		AD38537815D7CA0F00E96232 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = ADCFBC0F15D6474D00720FC6 /* SDWebImage.xcodeproj */;
+			containerPortal = AD38536D15D7CA0F00E96232 /* SDWebImage.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 53761325155AD0D5005750A4;
 			remoteInfo = "SDWebImage ARC";
 		};
-		ADCFBC1C15D6474E00720FC6 /* PBXContainerItemProxy */ = {
+		AD38537A15D7CA0F00E96232 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = ADCFBC0F15D6474D00720FC6 /* SDWebImage.xcodeproj */;
+			containerPortal = AD38536D15D7CA0F00E96232 /* SDWebImage.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 531041E0157EAFA400BBABC3;
 			remoteInfo = "SDWebImage ARC+MKAnnotation";
 		};
-		ADCFBC1E15D6478C00720FC6 /* PBXContainerItemProxy */ = {
+		ADCC9F1115D7CAB800C2C899 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = ADCFBC0F15D6474D00720FC6 /* SDWebImage.xcodeproj */;
+			containerPortal = AD38536D15D7CA0F00E96232 /* SDWebImage.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 53761307155AD0D5005750A4;
 			remoteInfo = "SDWebImage ARC";
@@ -355,11 +347,11 @@
 		AD1FDE6415D3EF090041C38B /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		AD1FDE7115D3EFA00041C38B /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		AD1FDE7315D3EFB80041C38B /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		AD38536D15D7CA0F00E96232 /* SDWebImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDWebImage.xcodeproj; path = "GameFF/rs-SDWebImage-c474512/SDWebImage.xcodeproj"; sourceTree = "<group>"; };
 		AD4FF07615D3F430007E487F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		AD4FF07815D3F476007E487F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		AD4FF07A15D3F4A3007E487F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AD4FF07B15D3F4A3007E487F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ADCFBC0F15D6474D00720FC6 /* SDWebImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDWebImage.xcodeproj; path = "../../Downloads/rs-SDWebImage-c474512/SDWebImage.xcodeproj"; sourceTree = "<group>"; };
 		ADCFBC2115D647AF00720FC6 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		ADCFBC2315D7A02D00720FC6 /* customCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customCell.h; sourceTree = "<group>"; };
 		ADCFBC2415D7A02D00720FC6 /* customCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customCell.m; sourceTree = "<group>"; };
@@ -371,17 +363,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADCFBC2215D647AF00720FC6 /* ImageIO.framework in Frameworks */,
-				ADCFBC2015D647A100720FC6 /* libSDWebImageARC.a in Frameworks */,
+				ADCC9F1315D7CAD000C2C899 /* libSDWebImageARC.a in Frameworks */,
 				AD4FF07915D3F476007E487F /* SystemConfiguration.framework in Frameworks */,
 				AD4FF07715D3F430007E487F /* CoreLocation.framework in Frameworks */,
-				3201088596B4756681693705 /* libThree20UICommon.a in Frameworks */,
-				320D7DCCE32703ACAB9A45E5 /* libThree20.a in Frameworks */,
-				320A737074758E53BA54BE95 /* libThree20UINavigator.a in Frameworks */,
-				320A2827FEC940B25BC42C65 /* libThree20Core.a in Frameworks */,
-				320F2C48872C2E2C4DF86205 /* libThree20UI.a in Frameworks */,
 				320AF8492C47A4D819F7C451 /* QuartzCore.framework in Frameworks */,
-				320A5A189C235877202780D5 /* libThree20Network.a in Frameworks */,
-				320CC833B8AF0ACFD35E6225 /* libThree20Style.a in Frameworks */,
 				AD1FDD4415D3EC940041C38B /* UIKit.framework in Frameworks */,
 				AD1FDD4615D3EC940041C38B /* Foundation.framework in Frameworks */,
 				AD1FDD4815D3EC940041C38B /* CoreGraphics.framework in Frameworks */,
@@ -460,8 +445,8 @@
 		AD1FDD3415D3EC940041C38B = {
 			isa = PBXGroup;
 			children = (
+				AD38536D15D7CA0F00E96232 /* SDWebImage.xcodeproj */,
 				ADCFBC2115D647AF00720FC6 /* ImageIO.framework */,
-				ADCFBC0F15D6474D00720FC6 /* SDWebImage.xcodeproj */,
 				AD1FDD4915D3EC940041C38B /* GameFF */,
 				AD1FDD4215D3EC940041C38B /* Frameworks */,
 				AD1FDD4015D3EC940041C38B /* Products */,
@@ -649,12 +634,12 @@
 			path = Profile;
 			sourceTree = "<group>";
 		};
-		ADCFBC1015D6474D00720FC6 /* Products */ = {
+		AD38536E15D7CA0F00E96232 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ADCFBC1915D6474E00720FC6 /* libSDWebImage.a */,
-				ADCFBC1B15D6474E00720FC6 /* libSDWebImageARC.a */,
-				ADCFBC1D15D6474E00720FC6 /* libSDWebImageARC+MKAnnotation.a */,
+				AD38537715D7CA0F00E96232 /* libSDWebImage.a */,
+				AD38537915D7CA0F00E96232 /* libSDWebImageARC.a */,
+				AD38537B15D7CA0F00E96232 /* libSDWebImageARC+MKAnnotation.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -673,7 +658,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				ADCFBC1F15D6478C00720FC6 /* PBXTargetDependency */,
+				ADCC9F1215D7CAB800C2C899 /* PBXTargetDependency */,
 				3201088596B4756681693701 /* PBXTargetDependency */,
 				320D7DCCE32703ACAB9A45E1 /* PBXTargetDependency */,
 				320A737074758E53BA54BE91 /* PBXTargetDependency */,
@@ -707,8 +692,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = ADCFBC1015D6474D00720FC6 /* Products */;
-					ProjectRef = ADCFBC0F15D6474D00720FC6 /* SDWebImage.xcodeproj */;
+					ProductGroup = AD38536E15D7CA0F00E96232 /* Products */;
+					ProjectRef = AD38536D15D7CA0F00E96232 /* SDWebImage.xcodeproj */;
 				},
 				{
 					ProductGroup = 320D7DCCE32703ACAB9A45E3 /* Products */;
@@ -859,25 +844,25 @@
 			remoteRef = AD1FDDAD15D3ECC80041C38B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		ADCFBC1915D6474E00720FC6 /* libSDWebImage.a */ = {
+		AD38537715D7CA0F00E96232 /* libSDWebImage.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libSDWebImage.a;
-			remoteRef = ADCFBC1815D6474E00720FC6 /* PBXContainerItemProxy */;
+			remoteRef = AD38537615D7CA0F00E96232 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		ADCFBC1B15D6474E00720FC6 /* libSDWebImageARC.a */ = {
+		AD38537915D7CA0F00E96232 /* libSDWebImageARC.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libSDWebImageARC.a;
-			remoteRef = ADCFBC1A15D6474E00720FC6 /* PBXContainerItemProxy */;
+			remoteRef = AD38537815D7CA0F00E96232 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		ADCFBC1D15D6474E00720FC6 /* libSDWebImageARC+MKAnnotation.a */ = {
+		AD38537B15D7CA0F00E96232 /* libSDWebImageARC+MKAnnotation.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libSDWebImageARC+MKAnnotation.a";
-			remoteRef = ADCFBC1C15D6474E00720FC6 /* PBXContainerItemProxy */;
+			remoteRef = AD38537A15D7CA0F00E96232 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -887,7 +872,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				320B6C86F11D9990244A9731 /* Three20.bundle in Resources */,
 				AD1FDDF615D3EE870041C38B /* Applicasa-Config.plist in Resources */,
 				AD1FDE3215D3EEB60041C38B /* 111-user.png in Resources */,
 				AD1FDE3315D3EEB60041C38B /* camera.png in Resources */,
@@ -993,10 +977,10 @@
 			name = Three20UI;
 			targetProxy = 320F2C48872C2E2C4DF86202 /* PBXContainerItemProxy */;
 		};
-		ADCFBC1F15D6478C00720FC6 /* PBXTargetDependency */ = {
+		ADCC9F1215D7CAB800C2C899 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "SDWebImage ARC";
-			targetProxy = ADCFBC1E15D6478C00720FC6 /* PBXContainerItemProxy */;
+			targetProxy = ADCC9F1115D7CAB800C2C899 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1025,6 +1009,8 @@
 					"$(BUILT_PRODUCTS_DIR)/../three20",
 					"$(BUILT_PRODUCTS_DIR)/../../three20",
 					"../facebook-three20-527051a/Build/Products/three20",
+					"”$(TARGET_BUILD_DIR)/usr/local/lib/include”",
+					"”$(OBJROOT)/UninstalledProducts/include”",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_LDFLAGS = "-ObjC";
@@ -1050,6 +1036,8 @@
 					"$(BUILT_PRODUCTS_DIR)/../three20",
 					"$(BUILT_PRODUCTS_DIR)/../../three20",
 					"../facebook-three20-527051a/Build/Products/three20",
+					"”$(TARGET_BUILD_DIR)/usr/local/lib/include”",
+					"”$(OBJROOT)/UninstalledProducts/include”",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
