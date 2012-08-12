@@ -1,0 +1,43 @@
+Framework
+---------------
+Version 1.0
+
+1.
+
+
+SDK
+------
+Version 1.0
+
+1. Notify developers about default values for NSInteger (NSIntegerMin) and for float (FLT_MIN)
+2. NSDate not formatted - working with timestamps
+3.
+
+
+
+/*
+#ifdef DEBUG
+
+    #ifdef APPLICASA_DEBUG
+        #define ADLog(fmt, ...) NSLog((@"%s-[%d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+    #else
+        #define ADLog(fmt, ...) NSLog((@"Applicasa Info: " fmt),  ##__VA_ARGS__);
+    #endif
+
+#else
+
+    #ifdef APPLICASA_DEBUG
+        #define ADLog(fmt, ...) NSLog((@"%s-[%d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+    #else
+        #define DLog(...)
+    #endif
+
+#endif
+
+
+#ifdef APPLICASA_DEBUG
+#define ADLog(fmt, ...) NSLog((@"%s-[%d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#define ADLog(fmt, ...) NSLog((@"%s-[%d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#endif
+*/
